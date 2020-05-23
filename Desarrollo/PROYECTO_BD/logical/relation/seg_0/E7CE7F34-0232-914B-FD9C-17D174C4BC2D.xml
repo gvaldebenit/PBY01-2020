@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INF_VIV" directorySegmentName="seg_0" id="E7CE7F34-0232-914B-FD9C-17D174C4BC2D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:24:47 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>49811434-3DFE-1F82-4396-F6841F2E58B8</sourcePk>
+<dominantRole>C83352BB-64B4-1385-428B-CA4906925CFE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C83352BB-64B4-1385-428B-CA4906925CFE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4DF48B72-5A94-F615-DB4B-5398472C6F20</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

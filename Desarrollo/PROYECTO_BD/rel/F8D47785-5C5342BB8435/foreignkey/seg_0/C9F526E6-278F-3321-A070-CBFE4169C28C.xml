@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9F526E6-278F-3321-A070-CBFE4169C28C" containerWithKeyObject="DFAEA91E-7580-A9BD-31F6-AB5EA8C8E1BD" localFKIndex="C9E2C4AF-38AB-F914-DA47-20F72C629EF9" name="DOMICILIO_COMUNA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>C2AF7030-8B25-C87C-6DB8-18ED773E98DC</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>COMUNA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DF6D6DC-2D0C-0CA3-A07B-777163C2A786</referredTableID>
+<keyObject>49912F11-0830-3D8B-3F92-B1290D6B4DB6</keyObject>
+<referredKeyID>49912F11-0830-3D8B-3F92-B1290D6B4DB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_com</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

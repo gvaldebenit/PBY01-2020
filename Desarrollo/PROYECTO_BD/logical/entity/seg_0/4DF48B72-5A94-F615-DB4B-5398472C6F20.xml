@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DF48B72-5A94-F615-DB4B-5398472C6F20" name="INF_TECNICO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>11DBFDC1-E37D-0C81-60DB-E4BEC9017C34</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doc" id="F38D0764-1F03-A8DE-6909-89788F85D67A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>5E7D6C91-9FBE-5E92-11F9-E91E4C3799F5</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="BDFBEB9C-18B6-66BB-26C7-6CEA253B9186">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>CBFABF75-EAEF-8B61-5628-D039997A7C98</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anom_irreP" id="CDFC4D01-8D8E-5D48-44BE-C7E3F26E2480">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>9411EA1B-39A7-1E66-D512-B2B5A0D7F35D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anom_rep" id="832496B6-2DE1-DE39-B6CE-71BBD913063A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:04:58 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apta_hab" id="C88B3988-85D0-4F60-015C-9B241669A27C">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:05:18 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apta_sub" id="9D08B99B-D764-5A39-6E3F-4EEFC489D0AC">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:04:11 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viv" id="62A046EA-5C10-97D8-09DF-5389CC71E0A1">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:24:47 UTC</createdTime>
+<generatorID>E7CE7F34-0232-914B-FD9C-17D174C4BC2D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<referedAttribute>1AE003BB-B27C-17C0-ED46-47A688ACB418</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94C99800-FDE7-724B-3722-C41E539C4362" name="INF_TEC_ PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>97491F80-33C0-557C-5D71-0FD92FC676CB</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F38D0764-1F03-A8DE-6909-89788F85D67A</newElementsIDs>
+<usedAttributes>
+<attributeRef>F38D0764-1F03-A8DE-6909-89788F85D67A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

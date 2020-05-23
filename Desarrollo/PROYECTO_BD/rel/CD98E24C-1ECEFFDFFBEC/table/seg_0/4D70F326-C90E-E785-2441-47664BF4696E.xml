@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D70F326-C90E-E785-2441-47664BF4696E" name="TRAMO_VIVIENDA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>B749308D-AF45-2470-EC65-69C4CD187EEA</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tramo" id="31034189-336A-7416-E5CB-F87681D5CBE5">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>A48807F1-DA0B-C626-95C8-67284D6FFE2B</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_min" id="2B1C38C0-2317-6369-2B34-6516620F0086">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>1E2693D1-D1FB-E6F1-CF19-5E380A55CA00</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_max" id="5DFB412C-2FBA-5D3F-9C7F-7A2D5B491560">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>96F1D23F-189D-A8DD-7B45-0DADC2DA41E6</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0635B9E6-33C1-89D3-B483-822A208994E8" name="TRAMO_VIVIENDA_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>3BFB7A15-2CC3-6DCA-A36F-F1053E0FB0FC</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31034189-336A-7416-E5CB-F87681D5CBE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

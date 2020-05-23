@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E9C16C5-BA47-7B50-4F9C-AC9934ADAF8A" name="CONYUGE">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>EDED050F-7594-99B4-9A3B-A3AE80D67A54</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_conyuge" id="0D3AB658-C7C4-5459-7D5F-CEFCE63574B3">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>85478B3E-D746-1A4B-52FB-2DFA41558CE0</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_conyuge" id="2871324F-6BFD-0B79-1B8A-9207650A6428">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>3972AFBF-1B24-C1E3-45CD-F1D6550FB943</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apaterno_conyuge" id="77F6898D-2006-4051-7488-ACD5D7122786">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>F4E3B7B4-2652-B54F-7A80-82B9D67C5545</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amaterno_conyuge" id="2A2331F4-57CD-58E7-0CC0-16FB336CF1ED">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>B8A066EB-8EF7-8733-1B44-C19ADAB4A2D7</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalida_conyuge" id="F796F216-C2E5-A4C6-1C72-27B0C48EC377">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>3E8249A2-F69E-41FA-ADE6-0BD9DE7EBF26</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac_conyuge" id="03BE143F-5417-66C0-7BA8-FCF6E71531B8">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>99BC5F54-56EE-16F0-65CC-001452F118F9</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_rut_postulante" id="B631A908-534F-C9CC-18D3-39BB9140C73E">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>E1A2BCDF-D9E1-1D9D-00AC-173704EFE206</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F8A41F3-9853-7EF2-3DAB-C5E9949DCDE7" referredColumn="AA385374-6726-6ACC-D5A6-F969B92BB424"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF9DDB55-7A5E-C873-DC06-2F1A4774A1C3" name="CONYUGE_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>DBCD3E51-F208-1D39-E622-155D56CA7524</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D3AB658-C7C4-5459-7D5F-CEFCE63574B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E2C5515-DB73-A9DB-B35D-3FD1CB081166" name="CONYUGE__IDX">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87EE892A-EEA6-9053-AF85-C941F5DC1B93</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B631A908-534F-C9CC-18D3-39BB9140C73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84BE0FA2-F477-7EE8-BF10-ADB7F403F469" name="CONYUGE_POSTULANTE_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>87EE892A-EEA6-9053-AF85-C941F5DC1B93</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B631A908-534F-C9CC-18D3-39BB9140C73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

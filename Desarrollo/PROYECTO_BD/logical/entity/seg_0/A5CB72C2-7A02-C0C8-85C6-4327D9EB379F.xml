@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5CB72C2-7A02-C0C8-85C6-4327D9EB379F" name="NVL_EDUC">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:46:51 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_educ" id="77E084AC-54C7-952D-6A1A-F6B9CB29E747">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:47:01 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc" id="C398F296-7DD4-99E2-7B7A-E265D4FE048F">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:47:30 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2875D4EA-56EE-A8FD-5A77-6E2092CE3725" name="NVL_EDUC_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:47:29 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>77E084AC-54C7-952D-6A1A-F6B9CB29E747</newElementsIDs>
+<usedAttributes>
+<attributeRef>77E084AC-54C7-952D-6A1A-F6B9CB29E747</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

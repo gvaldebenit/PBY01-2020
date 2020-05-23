@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FICHA_POS" directorySegmentName="seg_0" id="0E1EC077-2905-4D76-9DBA-6A0212C29F87">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-28 21:38:17 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>14E03D32-DB57-C050-E4B2-2FBC9C5721F9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10D45EBD-52C4-7E29-5005-8F09716EB379</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F361DC2-B06B-384A-8BE1-6666A2E98CB8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

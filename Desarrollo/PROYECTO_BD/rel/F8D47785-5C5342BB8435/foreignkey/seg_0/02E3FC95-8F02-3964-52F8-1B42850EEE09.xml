@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02E3FC95-8F02-3964-52F8-1B42850EEE09" containerWithKeyObject="6ECF61E4-5058-50FD-E3DB-6BDCB49BCD82" localFKIndex="57B7F0EF-F0C8-FA6A-8030-67E2F6F1A68E" name="FICHA_AHORRO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>3672D644-833F-A0E3-A55E-F6B84CE2BFFF</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>AHORRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B89FFD33-BD37-A8B5-5DFB-8F7A70458302</referredTableID>
+<keyObject>2D08AAA6-4CDB-402D-9EBD-0C5429A39DE1</keyObject>
+<referredKeyID>2D08AAA6-4CDB-402D-9EBD-0C5429A39DE1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_a</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

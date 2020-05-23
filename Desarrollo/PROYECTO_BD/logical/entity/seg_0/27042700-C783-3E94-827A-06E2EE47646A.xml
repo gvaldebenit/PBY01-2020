@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27042700-C783-3E94-827A-06E2EE47646A" name="TRAMO_PJE_AHORRO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:44:49 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C0B4A716-DF89-5127-5137-A0D1282E3B1C">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:44:58 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ahorro_min" id="9CC5A689-CA48-3357-245E-CB3318A33AEC">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:44:58 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ahorro_max" id="A32DF3E9-BE4E-E6AB-9CDC-BF2193F20253">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:44:58 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="18024164-FC8D-3D10-110D-B536FBA1D1D3">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:44:59 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="983F7C33-EC3A-4258-5FCE-C37FB96DC463" name="PJEAHORRO PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:19:03 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C0B4A716-DF89-5127-5137-A0D1282E3B1C</newElementsIDs>
+<usedAttributes>
+<attributeRef>C0B4A716-DF89-5127-5137-A0D1282E3B1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

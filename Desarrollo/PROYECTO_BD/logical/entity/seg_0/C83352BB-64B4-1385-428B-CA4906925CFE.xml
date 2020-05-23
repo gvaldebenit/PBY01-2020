@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C83352BB-64B4-1385-428B-CA4906925CFE" name="VIVIENDA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>FC597339-87A5-5A05-2327-D15BD9324559</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viv" id="1AE003BB-B27C-17C0-ED46-47A688ACB418">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>6D8BB384-4B38-5DBF-3D07-7EB777BA7FA8</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_prop" id="2D2C8B15-6C2F-388F-4998-B054284EDC85">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 01:56:17 UTC</createdTime>
+<generatorID>03DB2DDF-2319-9E6F-130E-CE8C37E0A05C</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<referedAttribute>333B12D0-B04A-6D50-6149-0CC0B2BF2930</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="D9FF7A1D-7785-BF4C-1429-4A00A1E807E3">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>226701FA-102D-989E-1C17-219205830949</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_dpto" id="39FB910B-6FF7-A906-BE2A-7812041D5B9E">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>829EDCAF-1121-0799-EC7A-539A90AEC8AB</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_piso" id="270B4EDB-D9A5-2C57-881D-AAF4F3164959">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:20:29 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol_sii" id="449BA3A2-100A-EC32-6097-D3EEADC90E65">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>735D1539-6FE8-5984-D593-E73EA45C32E6</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poblacion" id="6DE948D8-BA18-5CF4-852C-A8EC7727C4B7">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:23:14 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_permiso" id="826287DE-8AA5-5E5F-BD44-3D8575DF60A2">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:06:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fech_perm" id="7F93418B-7865-ABFD-A22F-ACC0296F4BD3">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:06:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m2" id="09D4C8B9-9040-55BC-ED76-A1BCCA281742">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:06:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_const" id="DE9F753D-A2B4-C4A6-E3DF-987EE8792989">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:06:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_rec" id="BB8702C1-C4D2-AAF3-15EB-230C87FB8683">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:06:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_rec" id="DADFFC11-16B7-48CE-B4B0-C7ED50576136">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 02:08:04 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_com" id="534DEABC-DDB4-373F-4049-4305FA02D41D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:18:57 UTC</createdTime>
+<generatorID>7A14C5BE-00AE-2919-E12A-B0BB0F5AC8EF</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<referedAttribute>4A915E46-9BB4-418A-7494-66A616B78791</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49811434-3DFE-1F82-4396-F6841F2E58B8" name="VIVIENDA PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>B6F360CB-54A6-20A2-B493-3312B4898A67</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AE003BB-B27C-17C0-ED46-47A688ACB418</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POS_VIV" directorySegmentName="seg_0" id="31F2744A-1845-7707-9A26-5188C25E0A73">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:24:21 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>49811434-3DFE-1F82-4396-F6841F2E58B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C83352BB-64B4-1385-428B-CA4906925CFE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10D45EBD-52C4-7E29-5005-8F09716EB379</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

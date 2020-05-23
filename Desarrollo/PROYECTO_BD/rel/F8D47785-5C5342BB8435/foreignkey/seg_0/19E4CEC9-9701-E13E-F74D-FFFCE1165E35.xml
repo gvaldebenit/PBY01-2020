@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="19E4CEC9-9701-E13E-F74D-FFFCE1165E35" containerWithKeyObject="10115E7B-CB1D-D55A-BA6A-EB72D398145C" localFKIndex="EDC61B1F-036F-CF6E-C173-BA66AA8D8429" name="POSTULANTE_NVL_EDUC_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>94859F4B-1504-1A85-C41F-35BA772A7D44</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>NVL_EDUC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0F82B0FC-BA4B-5CE3-2ADA-BA194115B29E</referredTableID>
+<keyObject>4362AB35-5706-F45F-592F-4B7609A1D318</keyObject>
+<referredKeyID>4362AB35-5706-F45F-592F-4B7609A1D318</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_educ</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

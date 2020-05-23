@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA27ECF7-CCB5-A1D8-61E1-F08059B39ED2" containerWithKeyObject="72CBB49A-7F56-AFCF-CDB2-7E6DC796077E" localFKIndex="14D5AC56-B52B-51D8-F9BF-44782AF4AB53" name="CARGA_PARENTEZCO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>1966582D-D528-1365-241E-9E94D8D90BB2</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>PARENTEZCO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4FC20C5-583E-2429-2035-E28B3B5CC8E9</referredTableID>
+<keyObject>A20A9E80-76A9-F674-8E90-8DB18466FCBD</keyObject>
+<referredKeyID>A20A9E80-76A9-F674-8E90-8DB18466FCBD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_par</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

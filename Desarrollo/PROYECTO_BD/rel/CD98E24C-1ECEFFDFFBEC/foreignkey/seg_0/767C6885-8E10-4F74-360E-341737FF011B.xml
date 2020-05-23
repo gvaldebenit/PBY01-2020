@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="767C6885-8E10-4F74-360E-341737FF011B" containerWithKeyObject="17FB39EB-06DB-8E99-7033-D6CAF0C0411E" localFKIndex="3396BB15-2338-15C4-FDE5-09A4C427ACD8" name="POSTULACION_POSTULANTE_POSTULACION_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>0E1EC077-2905-4D76-9DBA-6A0212C29F87</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>POSTULACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7560FB77-6650-E7D8-43F4-D032E83A6202</referredTableID>
+<keyObject>E6EEA4BD-7311-18BE-EC42-FF5BFC26F362</keyObject>
+<referredKeyID>E6EEA4BD-7311-18BE-EC42-FF5BFC26F362</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_folio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

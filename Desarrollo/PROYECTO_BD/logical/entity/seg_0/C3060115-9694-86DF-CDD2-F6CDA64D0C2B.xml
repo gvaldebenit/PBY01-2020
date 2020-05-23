@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3060115-9694-86DF-CDD2-F6CDA64D0C2B" name="DEPOSITO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>12E06E0A-AF62-390A-7FC9-356573AD408C</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_dep" id="E4E89B55-8678-042E-D10A-A415A89385D1">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>217FFB23-D8C1-A9FC-2502-A08E4B55F382</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_a" id="714E42A2-9A97-9D3F-7C1B-9C88B0F6F461">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:24:30 UTC</createdTime>
+<generatorID>F7252658-29E8-A323-6A92-9DA01F384474</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<referedAttribute>67BEC8DD-FC23-23BC-FE16-8C0C09E8AAF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="DBFDC224-2289-FBC7-F53C-53B037A54F7C">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>41B9FA9A-7BCD-0579-D12C-5E635BBEB17E</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_dep" id="74038E5C-8622-8AA4-7613-5009CF958A4D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>6BDCD0AA-A077-F4F2-2C12-A14F7B0E1931</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sucursal_dep" id="7A51E2FB-F1F1-8765-D54B-5983673A066D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>B71D9AC7-4682-EC82-993F-C45A93BEA1FB</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DF1595D-52C8-1F09-71FB-2FD81282E7B2" name="DEPOSITO PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>171A22E9-B98A-AB6A-68B0-ADA16BF59662</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4E89B55-8678-042E-D10A-A415A89385D1</attributeRef>
+<attributeRef>714E42A2-9A97-9D3F-7C1B-9C88B0F6F461</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

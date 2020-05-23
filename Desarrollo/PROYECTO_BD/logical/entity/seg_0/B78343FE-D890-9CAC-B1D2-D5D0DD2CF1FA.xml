@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B78343FE-D890-9CAC-B1D2-D5D0DD2CF1FA" name="TRAMO_PJE_EDAD">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:40:28 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_edad" id="74BD937E-E92B-99DA-B08C-9CFD844D404D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:41:34 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad_min" id="680CF84F-5B6C-1129-B4BE-2783A31E3B23">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:42:16 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad_max" id="F0070578-D1CA-47B4-330D-A0C4E10A48AA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:42:17 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos" id="0D9BDB15-DDDB-E1AC-09DB-1F6FD70F1F88">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:42:17 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B14D9274-4804-EBF6-6668-C77C8A48EBFE" name="PJEEDAD_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:41:55 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>74BD937E-E92B-99DA-B08C-9CFD844D404D</newElementsIDs>
+<usedAttributes>
+<attributeRef>74BD937E-E92B-99DA-B08C-9CFD844D404D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

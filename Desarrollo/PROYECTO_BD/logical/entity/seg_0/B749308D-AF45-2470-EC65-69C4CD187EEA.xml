@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B749308D-AF45-2470-EC65-69C4CD187EEA" name="TRAMO_VIV">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-29 23:12:46 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tramo" id="A48807F1-DA0B-C626-95C8-67284D6FFE2B">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-29 23:12:55 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_min" id="1E2693D1-D1FB-E6F1-CF19-5E380A55CA00">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-29 23:13:11 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_max" id="96F1D23F-189D-A8DD-7B45-0DADC2DA41E6">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-29 23:13:36 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BFB7A15-2CC3-6DCA-A36F-F1053E0FB0FC" name="TR_VIV_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-29 23:13:09 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A48807F1-DA0B-C626-95C8-67284D6FFE2B</newElementsIDs>
+<usedAttributes>
+<attributeRef>A48807F1-DA0B-C626-95C8-67284D6FFE2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

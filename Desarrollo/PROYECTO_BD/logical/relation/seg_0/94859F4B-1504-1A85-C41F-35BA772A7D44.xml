@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NVL_POS" directorySegmentName="seg_0" id="94859F4B-1504-1A85-C41F-35BA772A7D44">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:47:54 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>2875D4EA-56EE-A8FD-5A77-6E2092CE3725</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A5CB72C2-7A02-C0C8-85C6-4327D9EB379F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAE34C15-BE44-4A6E-72F6-920ECC96EA2E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

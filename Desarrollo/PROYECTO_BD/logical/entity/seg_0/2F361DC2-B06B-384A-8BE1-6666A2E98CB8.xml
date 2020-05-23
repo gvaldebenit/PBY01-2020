@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F361DC2-B06B-384A-8BE1-6666A2E98CB8" name="POSTULACION">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-28 21:37:24 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_p" id="3C6F5626-9DBF-CC24-B961-6881D19F03F4">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-28 21:37:52 UTC</createdTime>
+<generatorID>809E3CA8-8977-3E6B-D716-8F9E73169432</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<referedAttribute>175E044B-D097-9C1D-7C11-C46DE445B244</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_folio" id="D486DDC2-5065-7E05-D924-6E38D2F97F2A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-28 21:38:17 UTC</createdTime>
+<generatorID>0E1EC077-2905-4D76-9DBA-6A0212C29F87</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<referedAttribute>2FA3DF00-B212-AEF8-D018-920F3E4D5405</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51DB680A-71E7-97CF-7F50-730BCB11EB70" name="POSTULACION PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-28 21:37:52 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>809E3CA8-8977-3E6B-D716-8F9E73169432,0E1EC077-2905-4D76-9DBA-6A0212C29F87</newElementsIDs>
+<usedAttributes>
+<attributeRef>3C6F5626-9DBF-CC24-B961-6881D19F03F4</attributeRef>
+<attributeRef>D486DDC2-5065-7E05-D924-6E38D2F97F2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

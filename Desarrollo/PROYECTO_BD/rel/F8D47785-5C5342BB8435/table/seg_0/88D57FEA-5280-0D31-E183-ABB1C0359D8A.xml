@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88D57FEA-5280-0D31-E183-ABB1C0359D8A" name="POSTULACION">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>2F361DC2-B06B-384A-8BE1-6666A2E98CB8</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSTULANTE_rut_p" id="76BDDB75-C393-5A21-240E-7F4E6A7D797A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>3C6F5626-9DBF-CC24-B961-6881D19F03F4</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE14D92-5D77-EB0E-35DE-BFC2BF341E99" referredColumn="BF2C0FAE-573C-41B8-C245-4704C13B9283"/>
+</associations>
+</Column>
+<Column name="FICHA_nro_folio" id="DADC8CAF-9EEB-AE0E-7C1F-CE3AD8E7A1C0">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>D486DDC2-5065-7E05-D924-6E38D2F97F2A</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C8D270F-FF1B-11A3-CA5A-B9E6EFFE5AAE" referredColumn="E02EF921-CAA1-3086-DCD8-BB471EA75624"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32B903A7-FB57-474F-BF09-11D26DC77E1E" name="POSTULACION_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>51DB680A-71E7-97CF-7F50-730BCB11EB70</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76BDDB75-C393-5A21-240E-7F4E6A7D797A"/>
+<colUsage columnID="DADC8CAF-9EEB-AE0E-7C1F-CE3AD8E7A1C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DCFB7C3-7B15-B0DD-151D-5B02DD35644D" name="POSTULACION_FICHA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>0E1EC077-2905-4D76-9DBA-6A0212C29F87</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DADC8CAF-9EEB-AE0E-7C1F-CE3AD8E7A1C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="588BB0CA-84B5-2C48-616E-E0BFEE7F6865" name="POSTULACION_POSTULANTE_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>809E3CA8-8977-3E6B-D716-8F9E73169432</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76BDDB75-C393-5A21-240E-7F4E6A7D797A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

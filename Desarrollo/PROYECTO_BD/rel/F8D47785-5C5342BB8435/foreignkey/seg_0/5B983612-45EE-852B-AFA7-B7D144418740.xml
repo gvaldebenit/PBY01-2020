@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B983612-45EE-852B-AFA7-B7D144418740" containerWithKeyObject="FAA827E3-7AB7-DEC8-30F4-EEEEEF4F4F39" localFKIndex="E91549B3-E8EE-6DBB-32E4-03AC931B8CB0" name="PAR_EVALUADOR_INF_TECNICO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>3BD67471-6BF3-B5B4-A32F-3E5F9098CDCF</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>INF_TECNICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9279B18E-C963-1F4B-2E2A-B85E19789E91</referredTableID>
+<keyObject>1CE518A8-5FDD-5305-4631-0D324AD102E1</keyObject>
+<referredKeyID>1CE518A8-5FDD-5305-4631-0D324AD102E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>doc</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

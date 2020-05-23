@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POS_CAR" directorySegmentName="seg_0" id="17855ED5-C56B-9663-0156-969BFDFBF64F">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 03:27:54 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>97AEFF80-609B-B99A-93B5-DCB01B795C0C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FAE34C15-BE44-4A6E-72F6-920ECC96EA2E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0189A186-7DF1-5113-14E4-0EB6A16EA496</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

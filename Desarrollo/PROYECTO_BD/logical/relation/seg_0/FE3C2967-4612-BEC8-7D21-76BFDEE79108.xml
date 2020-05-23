@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVA_PAREV" directorySegmentName="seg_0" id="FE3C2967-4612-BEC8-7D21-76BFDEE79108">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:23:18 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>6745E1A9-44C0-EC06-0590-07FC4285E679</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA0F4914-4EF7-9F84-FF06-B5F36C8E1503</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BF320A0-5A75-CFB4-E607-C8F0A00D9A3C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

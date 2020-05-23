@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B56CCDE3-0CD8-14D7-90A0-4627A8480E68" name="CARGA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>0189A186-7DF1-5113-14E4-0EB6A16EA496</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_carga" id="238233C8-1E81-1876-669C-C77068715F2E">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>C42DDEF8-A632-F9EA-F6B4-BD267E60ECEB</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_carga" id="9699A544-F971-9D2C-6B20-FCB1AA9BA4FD">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>EDCBDFED-F751-61D6-DA9A-25B546A05DA7</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apaterno_carga" id="5E8E1931-F7F5-398B-A529-A01C2D85EEDB">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>BF25A7CF-8F3F-DD52-F058-3DF2ADB38D23</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amaterno_carga" id="5B14EF20-4AF1-7BD1-A884-FA0FCF5741DC">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>6669D3FF-9AAE-8AE7-F4F7-A2B0FB1270B0</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_rut_postulante" id="23A57613-4466-F8A4-C3D6-4908D83727E1">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>576835BA-6F0B-B5B4-D471-ADFF2A24954E</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EA11901-08F8-F73C-2607-D77A0834435F" referredColumn="AA385374-6726-6ACC-D5A6-F969B92BB424"/>
+</associations>
+</Column>
+<Column name="PARENTEZCO_id_parentezco" id="FCD73C2C-2B19-7195-E655-47357FB50F92">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>0E2874DA-A5C0-1544-40E3-E91EEA4EA291</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7E310AE-E921-A1B0-771A-436A3C392191" referredColumn="80F4CCD8-15D9-78F0-61C8-80D062252A2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1443AE7-AEDB-5AD5-43E8-F815AD0358BC" name="CARGA_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>070B1383-E282-A1D2-C86C-A086623AB195</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="238233C8-1E81-1876-669C-C77068715F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A14F4B6B-378E-323A-F657-D3B773BF607E" name="CARGA__IDX">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>58EE2ED5-40D1-38FE-4F87-8DB3477B0580</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FCD73C2C-2B19-7195-E655-47357FB50F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD911853-7A35-DDB0-1888-73A22B353AC8" name="CARGA_PARENTEZCO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>58EE2ED5-40D1-38FE-4F87-8DB3477B0580</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD73C2C-2B19-7195-E655-47357FB50F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B2FDAE-3E09-6873-8B94-4B6D48C27EAD" name="CARGA_POSTULANTE_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>17855ED5-C56B-9663-0156-969BFDFBF64F</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A57613-4466-F8A4-C3D6-4908D83727E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

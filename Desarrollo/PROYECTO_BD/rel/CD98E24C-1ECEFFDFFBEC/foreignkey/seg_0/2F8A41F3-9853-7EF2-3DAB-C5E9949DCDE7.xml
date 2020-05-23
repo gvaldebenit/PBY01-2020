@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F8A41F3-9853-7EF2-3DAB-C5E9949DCDE7" containerWithKeyObject="9E9C16C5-BA47-7B50-4F9C-AC9934ADAF8A" localFKIndex="84BE0FA2-F477-7EE8-BF10-ADB7F403F469" name="CONYUGE_POSTULANTE_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-30 01:21:53 UTC</createdTime>
+<generatorID>87EE892A-EEA6-9053-AF85-C941F5DC1B93</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>POSTULANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E19313FE-43FD-6411-E5BA-30B8887031BB</referredTableID>
+<keyObject>94D48215-BD27-5C91-D177-CB3C3B1A1413</keyObject>
+<referredKeyID>94D48215-BD27-5C91-D177-CB3C3B1A1413</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_postulante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

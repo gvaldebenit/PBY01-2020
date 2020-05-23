@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ECF61E4-5058-50FD-E3DB-6BDCB49BCD82" name="FICHA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>10D45EBD-52C4-7E29-5005-8F09716EB379</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_folio" id="E02EF921-CAA1-3086-DCD8-BB471EA75624">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>2FA3DF00-B212-AEF8-D018-920F3E4D5405</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_sol" id="90E1DD3B-1252-90E5-C2B7-64DC313F396A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>BB672E64-E874-DA7B-C916-F49175D6A38D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_rec" id="7C87C829-6A4C-C010-D8B5-397C4FF173AA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>1987A9CC-71BD-7787-1806-C006A076261D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAMO_VIV_id_tramo" id="1C498494-9488-9381-E51C-1B4552679AC8">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>3D55A5CD-EE3A-2B5E-8C2A-3BE3FFA86728</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89CE167F-D70D-0966-49E9-77C9A77961FF" referredColumn="DE619E23-25A2-1282-2CBC-E1AC67CAA815"/>
+</associations>
+</Column>
+<Column name="valor_viv" id="5CC06774-BF58-9737-FD3F-0C4D5E5CC444">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>F3800281-1B54-1932-3A55-3438349B1107</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_cod_com" id="13D019DB-47F7-AFA2-F0E1-59A1A441C63D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>9EFB08C1-5016-FECF-497B-7C8E4C2B8E79</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DFEF926-504A-2F7C-CDB5-E2E9BC72C978" referredColumn="60EF3156-094C-BD61-16F8-6399A9343C65"/>
+</associations>
+</Column>
+<Column name="VIVIENDA_id_viv" id="326C6E2A-D0F1-2442-DA77-3169D76C0479">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>C135E727-773F-74B9-2761-CD5F26D86E29</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C74EAB5C-E292-41E0-97B3-4DA5450B8644" referredColumn="9F0ACB6C-85B1-3BB0-4E9B-F4C04ED1669B"/>
+</associations>
+</Column>
+<Column name="AHORRO_id_a" id="9EB7DE23-C3FD-45EE-5C5F-A75076FFD657">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>4AF01BA0-765F-5E36-BB5D-3494C7C1852C</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02E3FC95-8F02-3964-52F8-1B42850EEE09" referredColumn="11F12309-48F7-E4C6-0FF2-5224F9E4CD34"/>
+</associations>
+</Column>
+<Column name="cargas_ac" id="373C065B-5446-3515-D3EA-CCA64D8C19ED">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>61508D0E-4A55-093E-4645-CA8AF66F45AF</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poriginario_ac" id="8B2D1819-13EF-50BF-03B6-223D277C2FA6">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>A154A27D-24A0-CEE0-ED28-B3EDA14EB889</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_ac" id="A3E9F24A-21C9-BB10-623B-1D81D3DCA4C6">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>61CC6879-421A-A86C-53EF-F9DB1684F3BE</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0706ECB5-6C40-E227-9E92-0283BC207A8D" name="FICHA_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>14E03D32-DB57-C050-E4B2-2FBC9C5721F9</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E02EF921-CAA1-3086-DCD8-BB471EA75624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9C789DB-F90A-14FB-7EFE-13810B804FBE" name="FICHA__IDX">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3672D644-833F-A0E3-A55E-F6B84CE2BFFF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9EB7DE23-C3FD-45EE-5C5F-A75076FFD657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8335B0A9-79F8-3E2F-D05C-173DAC2075EC" name="FICHA_TRAMO_VIV_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>A6096FAE-DE72-0EE7-6D25-3499C4CF6CCD</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C498494-9488-9381-E51C-1B4552679AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57B7F0EF-F0C8-FA6A-8030-67E2F6F1A68E" name="FICHA_AHORRO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>3672D644-833F-A0E3-A55E-F6B84CE2BFFF</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EB7DE23-C3FD-45EE-5C5F-A75076FFD657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47B60677-8D82-11ED-C00B-4D22D67ADADA" name="FICHA_COMUNA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>D191EE58-D287-15F5-0D12-E74BF5860C45</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D019DB-47F7-AFA2-F0E1-59A1A441C63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A23C3B52-6136-671B-3748-E6690B849A48" name="FICHA_VIVIENDA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-14 04:23:48 UTC</createdTime>
+<generatorID>31F2744A-1845-7707-9A26-5188C25E0A73</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326C6E2A-D0F1-2442-DA77-3169D76C0479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

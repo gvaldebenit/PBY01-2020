@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANE_POS" directorySegmentName="seg_0" id="B4F50093-4DCB-CE7A-3DFF-4D3F8539678D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-05-06 03:36:42 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>14E03D32-DB57-C050-E4B2-2FBC9C5721F9</sourcePk>
+<dominantRole>10D45EBD-52C4-7E29-5005-8F09716EB379</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10D45EBD-52C4-7E29-5005-8F09716EB379</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>48872E50-7BDC-393A-DD45-CB0AFEA36A95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

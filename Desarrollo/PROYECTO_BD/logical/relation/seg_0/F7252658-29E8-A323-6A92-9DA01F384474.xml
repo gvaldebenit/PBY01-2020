@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEP_AHO" directorySegmentName="seg_0" id="F7252658-29E8-A323-6A92-9DA01F384474">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:24:30 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="F8D47785-91E4-32D7-297B-5C5342BB8435" value="true"/>
+</engineerTo>
+<sourcePk>B220ADC5-1D49-1186-25B5-FE4E1CBE0108</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9AE9225D-DA77-6C9E-3895-381BD1A9E20D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3060115-9694-86DF-CDD2-F6CDA64D0C2B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
