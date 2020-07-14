@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D60303A6-05EB-C430-7AE2-A7543CF98C68" name="PUNTAJE">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>96C2907A-CCCF-A171-9837-79047D2C3204</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POSTULANTE_rut_p" id="1754D0A4-DA0F-E6FC-0ECF-5F459A178AB1">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>77F2DB88-682F-3F39-478A-FFA1FC4C8811</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BCE9918-7F68-0818-7D2D-F25114E52C57" referredColumn="1E92361A-3F0B-D3DE-2787-FCEE9823BE59"/>
+</associations>
+</Column>
+<Column name="pje_edad" id="52E00954-6680-52C9-7EE0-6D9BD038676F">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>9D9235D5-F276-C3D6-87D2-0A9605409517</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_ecivil" id="A79D6383-DC9B-FC94-3CAE-8DEC56443D01">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>3FE536A3-E013-1D5C-5FA0-91E6345F9131</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_titulo" id="AB40AFA6-62BC-C13A-35FC-75C1B46AC669">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>DC879D47-F9A8-53FE-1EC8-D043475EC018</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_ahorro" id="8F36280A-D79F-E509-E033-D5E9A0B27A49">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>D568E588-1FE2-7C08-FC76-0A7544D57A73</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_pindigena" id="56A93826-480B-45A4-8E0F-4D5876ADFA1A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>449343C9-D25F-904A-FB04-E2954ECA8F88</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_carga" id="C3F3EBE3-85C1-2BF9-BB9E-0BBB8D2D9257">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>BDA59162-4916-0BEF-179D-20C7DF25D029</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_total" id="538BFA5E-6D12-6BF7-13FC-F162AE4D4A53">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>2C178731-4066-960D-4C9C-19EF51B0C777</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pje_adicional" id="820E55F5-6843-EB16-D895-30573A508EBA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>7903D7B4-1D3D-24BC-1E47-1995FBC46CF1</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32415166-C313-9144-2DE1-E8F382E88ED6" name="PUNTAJE_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>3975AEDA-716E-E5BC-E95C-E2AED9D1E8B3</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1754D0A4-DA0F-E6FC-0ECF-5F459A178AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03868DF0-5D18-652C-E234-82B37E4398B2" name="PUNTAJE_POSTULANTE_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>D03FE4CD-68C3-B4E2-22DD-5925552CA9CE</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1754D0A4-DA0F-E6FC-0ECF-5F459A178AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

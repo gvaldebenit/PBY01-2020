@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11126614-9AD9-6644-A69F-0A67D927E2D1" containerWithKeyObject="10165D0C-095C-55D0-5575-09A398980DF5" localFKIndex="EB8593C0-E1B1-DED9-45E1-433D08C2F809" name="FICHA_TRAMO_VIV_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>A6096FAE-DE72-0EE7-6D25-3499C4CF6CCD</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>TRAMO_VIV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9AE2707E-69C4-75B7-E1AD-C43A67FE78B9</referredTableID>
+<keyObject>15C27D16-67F8-57AA-7C54-78A654BAE524</keyObject>
+<referredKeyID>15C27D16-67F8-57AA-7C54-78A654BAE524</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tramo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

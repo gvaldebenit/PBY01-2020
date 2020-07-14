@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="648088A6-7836-E09A-61E4-23BC26BAF546" name="COMUNA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>B34FFC45-0D81-7435-4E4F-D541219B80AD</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_com" id="4A915E46-9BB4-418A-7494-66A616B78791">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>8386BB4E-8F36-C57A-3A2C-02C921AAFAC1</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="03665552-A842-9492-F106-8FBB59814341">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>FF12D371-4B9E-1CAE-2E55-ACCCAA91E805</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_reg" id="001EDDCC-A8C2-C6AD-74D8-C36118A25CE1">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 03:19:37 UTC</createdTime>
+<generatorID>41CEB133-13DF-1743-3786-EB176011637E</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<referedAttribute>D4DB3F2E-B8A6-B640-276E-F1FDE066CCB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44586051-F8AB-528C-A74A-69692523BDD1" name="COMUNA PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-13 02:08:32 UTC</createdTime>
+<generatorID>7C88EAB6-BF62-C5A0-8C82-FE4D53F279F4</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A915E46-9BB4-418A-7494-66A616B78791</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

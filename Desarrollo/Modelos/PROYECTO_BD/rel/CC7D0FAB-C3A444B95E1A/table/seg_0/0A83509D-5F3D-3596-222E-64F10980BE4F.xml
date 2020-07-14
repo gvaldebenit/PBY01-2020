@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A83509D-5F3D-3596-222E-64F10980BE4F" name="PROPIETARIO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>58F65B32-2A83-D5FE-5D3A-31C0E97D3FA1</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_prop" id="83FBF112-F894-9472-0A9E-29A152C0A7C3">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>333B12D0-B04A-6D50-6149-0CC0B2BF2930</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BF4B49F1-9E01-FB08-F4BB-8753F8E25DB6">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>0E54A85F-EC14-00A4-7FB6-7D89A5FE48C2</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="26E3F0E8-1E89-0228-5E41-1864205C91C2">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>D242BBA9-34A3-29B9-42F0-968F366566A9</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail" id="1B6E03DD-2085-6127-ED34-BA3FC19BA675">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>2BAA5528-C7D2-D859-B0D5-3E50E520E8FC</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="108E71F1-4A91-9805-662F-C7617FBEA95B" name="PROPIETARIO_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>4FFDA429-F1AA-4670-B9DD-6EFB76696E2B</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83FBF112-F894-9472-0A9E-29A152C0A7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

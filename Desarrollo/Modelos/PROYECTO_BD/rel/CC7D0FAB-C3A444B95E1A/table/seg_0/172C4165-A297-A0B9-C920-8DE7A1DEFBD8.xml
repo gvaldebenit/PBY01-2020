@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="172C4165-A297-A0B9-C920-8DE7A1DEFBD8" name="COMUNA">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>648088A6-7836-E09A-61E4-23BC26BAF546</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_com" id="A4E401FB-A765-5D31-C4AB-97575786E66A">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>4A915E46-9BB4-418A-7494-66A616B78791</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6F14CC5A-DB76-6CE9-C732-0C0EC8802ED4">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>03665552-A842-9492-F106-8FBB59814341</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_cod_reg" id="A3970FEE-DAB2-F3DA-0897-C2491280BEE9">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>001EDDCC-A8C2-C6AD-74D8-C36118A25CE1</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0938C98-468D-8E94-7744-A6EEF5033F79" referredColumn="46AD9818-4532-9728-3676-794371279522"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1340AA72-94D5-0B57-050E-270A2E5AAC1C" name="COMUNA_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>44586051-F8AB-528C-A74A-69692523BDD1</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4E401FB-A765-5D31-C4AB-97575786E66A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99FCEE82-344F-2DD1-7B2F-20EBE62627A9" name="COMUNA_REGION_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>41CEB133-13DF-1743-3786-EB176011637E</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3970FEE-DAB2-F3DA-0897-C2491280BEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDED050F-7594-99B4-9A3B-A3AE80D67A54" name="CONYUGE">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:13:53 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_co" id="85478B3E-D746-1A4B-52FB-2DFA41558CE0">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:13:58 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="3972AFBF-1B24-C1E3-45CD-F1D6550FB943">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:14:14 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apaterno" id="F4E3B7B4-2652-B54F-7A80-82B9D67C5545">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:16:32 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amaterno" id="B8A066EB-8EF7-8733-1B44-C19ADAB4A2D7">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:17:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="3E8249A2-F69E-41FA-ADE6-0BD9DE7EBF26">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:18:19 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac" id="99BC5F54-56EE-16F0-65CC-001452F118F9">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:19:37 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_p" id="E1A2BCDF-D9E1-1D9D-00AC-173704EFE206">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:20:01 UTC</createdTime>
+<generatorID>87EE892A-EEA6-9053-AF85-C941F5DC1B93</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<referedAttribute>175E044B-D097-9C1D-7C11-C46DE445B244</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBCD3E51-F208-1D39-E622-155D56CA7524" name="CONYUGE PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 04:14:13 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="B07B9FB0-A02A-7C63-B606-D72DB6B10162" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85478B3E-D746-1A4B-52FB-2DFA41558CE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

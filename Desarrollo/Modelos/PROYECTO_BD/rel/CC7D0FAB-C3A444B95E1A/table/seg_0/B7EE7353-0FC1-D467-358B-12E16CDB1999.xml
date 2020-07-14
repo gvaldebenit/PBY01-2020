@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7EE7353-0FC1-D467-358B-12E16CDB1999" name="AHORRO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>9AE9225D-DA77-6C9E-3895-381BD1A9E20D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_a" id="97112392-5B15-2625-DD1F-11B41C121D46">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>67BEC8DD-FC23-23BC-FE16-8C0C09E8AAF7</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_cuenta" id="7EAA8562-2F48-5006-AA36-49453EF8BD80">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>DC9EEC2D-ED88-23C0-08EE-3855BB555B73</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_titular" id="DAE2E13F-90FB-2348-CADD-F165E50B2214">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>CB657F4A-2E7F-7452-88BE-2CD0655E5A17</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rel_post" id="DA8C00F1-2B03-9C7F-D4B0-CAA4241DACA0">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>1F232E65-FC94-DFEB-31EB-581B70E6F52B</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipocuenta" id="90F20ED8-7DA2-86B5-737F-BB23739BA3D5">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>3B1D3B7F-82C8-F649-E972-6C1E7CF700F6</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="14790CD1-1902-ACC8-241A-4CFF50A81982">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>5F686E03-9AC9-B769-B67F-8F7A60BFF37B</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCO_id_b" id="FA535E96-6366-9C87-5F30-45E2E12A48ED">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>C301F7E4-0F02-9669-43D4-C7F7432590D0</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="016E5592-6E44-6BD9-4CA4-FE0E2ABB7752" referredColumn="86D273A0-F1FA-69BC-9EAB-09B8F87F33DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EA65C66-22B9-F9C0-44A6-E17AAEC02E1C" name="AHORRO_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>B220ADC5-1D49-1186-25B5-FE4E1CBE0108</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97112392-5B15-2625-DD1F-11B41C121D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E17E0BA-DE3F-F284-75D7-3C063A41C188" name="AHORRO_BANCO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>51EFB589-605F-8B00-1ED0-F4D861F9E4B2</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA535E96-6366-9C87-5F30-45E2E12A48ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

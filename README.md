@@ -9,10 +9,7 @@ Contiene Todos los Archivos de la Tarea
  2. **DBCREATE.ddl**: Son el archivo para crear las tablas
 
 ##### TODO
-1. Poblar Base de datos
-2. Crear los Bloques PL/SQL
-	1. Bloques Anonimos
-	2. Procedure
-	3. Triggers
-3. Programa Base 
+1. Usar 4 varibles publicas en el package
+2. Ver funciones adentro y fuera de Package
+3. Corregir typos en directorios, roles y usuarios
 

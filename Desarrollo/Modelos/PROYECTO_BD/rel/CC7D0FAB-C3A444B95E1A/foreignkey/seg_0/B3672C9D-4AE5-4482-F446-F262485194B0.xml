@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3672C9D-4AE5-4482-F446-F262485194B0" containerWithKeyObject="13FAA1E6-B02C-1BFF-B385-69562C1D3A4A" localFKIndex="53EAB6E5-5DE7-E728-EF96-579306E35C08" name="ANEXO_FICHA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>B4F50093-4DCB-CE7A-3DFF-4D3F8539678D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>FICHA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10165D0C-095C-55D0-5575-09A398980DF5</referredTableID>
+<keyObject>D8492914-74AE-BBF9-7E37-A6CB4D9FC421</keyObject>
+<referredKeyID>D8492914-74AE-BBF9-7E37-A6CB4D9FC421</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nro_folio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

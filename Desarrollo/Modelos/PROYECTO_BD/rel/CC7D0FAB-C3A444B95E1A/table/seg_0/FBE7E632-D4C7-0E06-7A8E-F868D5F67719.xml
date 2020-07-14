@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBE7E632-D4C7-0E06-7A8E-F868D5F67719" name="INF_TECNICO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>4DF48B72-5A94-F615-DB4B-5398472C6F20</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doc" id="B714DED6-484A-A39E-E4AA-52E747E53267">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>F38D0764-1F03-A8DE-6909-89788F85D67A</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="524C40E4-99B4-C862-B1E1-66EC0483A9A2">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>BDFBEB9C-18B6-66BB-26C7-6CEA253B9186</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anom_irreP" id="14AE5F9A-2685-9CE8-94B1-0F05FD548683">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>CDFC4D01-8D8E-5D48-44BE-C7E3F26E2480</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anom_rep" id="C1887748-E296-6864-3E9F-DA229A60333D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>832496B6-2DE1-DE39-B6CE-71BBD913063A</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apta_hab" id="4FA9C130-B19A-ED8F-3156-63672B69C575">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>C88B3988-85D0-4F60-015C-9B241669A27C</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apta_sub" id="9ADB6D49-F154-64B4-156C-945A64D9AF7C">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>9D08B99B-D764-5A39-6E3F-4EEFC489D0AC</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIVIENDA_id_viv" id="5D854208-93DC-FB91-6C0A-0617296D1768">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>62A046EA-5C10-97D8-09DF-5389CC71E0A1</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BB7A616-BFDD-DBB2-17DF-13DC7D873E93" referredColumn="679F419A-7B29-0C53-5B24-826E1920F8D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDE1735D-518D-429E-C571-41DC474EE894" name="INF_TECNICO_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>94C99800-FDE7-724B-3722-C41E539C4362</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B714DED6-484A-A39E-E4AA-52E747E53267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE6F74AF-3D40-21F9-8503-8E4A5A9C164E" name="INF_TECNICO__IDX">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E7CE7F34-0232-914B-FD9C-17D174C4BC2D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5D854208-93DC-FB91-6C0A-0617296D1768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B4991F3-4C50-4AD6-3576-8E0D78F41442" name="INF_TECNICO_VIVIENDA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>E7CE7F34-0232-914B-FD9C-17D174C4BC2D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D854208-93DC-FB91-6C0A-0617296D1768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1DEA1A5-E59E-4412-EFE6-D29780776E81" name="PAR_EVALUADOR">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>0BF320A0-5A75-CFB4-E607-C8F0A00D9A3C</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVALUADOR_rut" id="F7C7705C-A931-80F0-23F2-C323BAACB6F2">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>61A70323-5193-E21B-7BAB-E8147DC30D64</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="878C514B-012E-8068-68C6-6CA47186245B" referredColumn="184F7872-EDA2-20A1-A4A9-8E093F56AB11"/>
+</associations>
+</Column>
+<Column name="INF_TECNICO_doc" id="F1840812-F506-66EE-F7AD-601E0C4BCE0D">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>5D84E900-E59A-79B2-4851-D15223720061</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7369C8CF-AF87-207F-703A-9DE20AF9DA6A" referredColumn="B714DED6-484A-A39E-E4AA-52E747E53267"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DDB83F6-4D38-C6EB-39E3-1C4770B97871" name="PAR_EVALUADOR_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>31D20846-C3C1-D250-7E53-6DC4A8CAC0C3</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7C7705C-A931-80F0-23F2-C323BAACB6F2"/>
+<colUsage columnID="F1840812-F506-66EE-F7AD-601E0C4BCE0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A274875-7D82-7757-0BF8-2F957B50E444" name="PAR_EVALUADOR_EVALUADOR_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>FE3C2967-4612-BEC8-7D21-76BFDEE79108</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7C7705C-A931-80F0-23F2-C323BAACB6F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61808B62-F353-E71E-9EE9-1BC8E5827BBC" name="PAR_EVALUADOR_INF_TECNICO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>3BD67471-6BF3-B5B4-A32F-3E5F9098CDCF</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1840812-F506-66EE-F7AD-601E0C4BCE0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

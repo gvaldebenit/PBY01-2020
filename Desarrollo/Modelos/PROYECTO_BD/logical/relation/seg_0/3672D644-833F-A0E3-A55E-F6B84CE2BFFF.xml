@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POS_AHO" directorySegmentName="seg_0" id="3672D644-833F-A0E3-A55E-F6B84CE2BFFF">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-04-22 03:47:38 UTC</createdTime>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<engineerTo>
+<item key="CC7D0FAB-8CC2-9A61-36C1-C3A444B95E1A" value="true"/>
+</engineerTo>
+<sourcePk>B220ADC5-1D49-1186-25B5-FE4E1CBE0108</sourcePk>
+<dominantRole>9AE9225D-DA77-6C9E-3895-381BD1A9E20D</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9AE9225D-DA77-6C9E-3895-381BD1A9E20D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>10D45EBD-52C4-7E29-5005-8F09716EB379</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

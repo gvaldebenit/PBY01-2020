@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13FAA1E6-B02C-1BFF-B385-69562C1D3A4A" name="ANEXO">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>48872E50-7BDC-393A-DD45-CB0AFEA36A95</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FICHA_nro_folio" id="B5822EC4-E8BA-910A-385E-5B2459DB6EEC">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>679D87E9-E83F-E0CC-8BDA-9B144B1D8900</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3672C9D-4AE5-4482-F446-F262485194B0" referredColumn="1CB27411-E9F1-9FB7-CED3-D7FD94E58C86"/>
+</associations>
+</Column>
+<Column name="doc_cargas" id="5F453DDF-78D9-F700-0FF6-83D5B049C48C">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>1BAC1252-5AC9-EAFC-A00B-4549FD394A55</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fech_doccargas" id="1751760D-5E48-1CCA-B321-643265A02069">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>904B4149-C255-4097-529B-B4E057542017</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_poriginario" id="7F5757C3-73B1-0121-6440-BB8837EFBA5C">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>7458D0E8-B998-CDE7-5119-5753C5D064CC</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fech_docpori" id="67126F07-A0F4-E511-6EF3-26AFB8934039">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>B000A73F-7D1D-17DE-321F-2665810D5B96</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_titulo" id="E9CA588A-7AEC-FBAB-07CF-9B4BDB9795C8">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>EE0ECFF6-A50B-821D-744D-E5C9B4B3BB95</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fech_doctitulo" id="0D3555C6-A03F-109C-7EDD-626063D1FBAC">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>C485A16C-1018-8C81-B1F8-D2725A268988</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32BD91BA-A90B-B291-53D1-D9C0B3256532" name="ANEXO_PK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:19 UTC</createdTime>
+<generatorID>2FC15021-1772-6E12-3FA2-4B15C13AC9EC</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5822EC4-E8BA-910A-385E-5B2459DB6EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53EAB6E5-5DE7-E728-EF96-579306E35C08" name="ANEXO_FICHA_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>B4F50093-4DCB-CE7A-3DFF-4D3F8539678D</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5822EC4-E8BA-910A-385E-5B2459DB6EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

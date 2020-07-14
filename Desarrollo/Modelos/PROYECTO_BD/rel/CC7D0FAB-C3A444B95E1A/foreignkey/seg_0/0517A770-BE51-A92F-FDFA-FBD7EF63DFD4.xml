@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0517A770-BE51-A92F-FDFA-FBD7EF63DFD4" containerWithKeyObject="D4FB8812-B968-C0AB-6349-8A66644E0A0C" localFKIndex="10495F05-3F05-148F-EF94-E4D3D1B39FCD" name="VIVIENDA_PROPIETARIO_FK">
+<createdBy>Yhodarks</createdBy>
+<createdTime>2020-07-13 03:58:20 UTC</createdTime>
+<generatorID>03DB2DDF-2319-9E6F-130E-CE8C37E0A05C</generatorID>
+<ownerDesignName>PROYECTO_BD</ownerDesignName>
+<referredTableLongName>PROPIETARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A83509D-5F3D-3596-222E-64F10980BE4F</referredTableID>
+<keyObject>108E71F1-4A91-9805-662F-C7617FBEA95B</keyObject>
+<referredKeyID>108E71F1-4A91-9805-662F-C7617FBEA95B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_prop</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
